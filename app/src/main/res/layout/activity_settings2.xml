@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.acer.merisaathi.SettingsActivity">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_tv1"
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="select date"
+                android:id="@+id/settings_datetv"
+                android:textSize="20sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender : "
+
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_rg1"
+            android:checkedButton="@+id/form_rb2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/settings_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="male"/>
+            <RadioButton
+                android:id="@+id/settings_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female"/>
+            <RadioButton
+                android:id="@+id/settings_rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="others"/>
+
+        </RadioGroup>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/settings_averageperiodays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="enter average period days"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="Sign In"
+                android:imeOptions="actionUnspecified"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/settings_averageperiodcycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter average cycle completion days"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="Sign In"
+                android:imeOptions="actionUnspecified"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Select last period date"
+            android:id="@+id/settings_datetv2"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select trusted contacts:"
+                android:textSize="25sp"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:id="@+id/settings_contacts1"
+                android:hint="Add contact"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/settings_contacts2"
+                android:hint="Add contact"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:id="@+id/settings_contacts3"
+                android:hint="Add contact"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:id="@+id/settings_contacts4"
+                android:hint="Add contact"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:id="@+id/settings_contacts5"
+                android:hint="Add contact"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/settings_submitButton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Apply changes"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Meri Saathi</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_string">Name: </string>
+    <string name="Log_in">LOG IN</string>
+    <string name="title_activity_main2">main2</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="post_creater">Priyanka Giri</string>
+    <string name="replier">Ritee Khanal</string>
+    <string name="replier2">Dikshya Shrestha</string>
+    <string name="original_post">I am in the process of divorce. My husband iskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.</string>
+    <string name="first_reply">I understand your problem alina. i can do nothing.</string>
+    <string name="second_reply">I am saloni sikha. I m going to be given treat bd your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothind your problem alina. i can do nothiny alina and spandan today</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_cycle_tracker">CycleTracker</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cycle_tracker2">CycleTracker2</string>
+
+</resources>

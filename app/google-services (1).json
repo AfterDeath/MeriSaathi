@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740599142144",
+    "project_id": "merisaathi-185818"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740599142144:android:e642460a4db14517",
+        "android_client_info": {
+          "package_name": "com.example.acer.merisaathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740599142144-seij1urlfpjv150884d1pl7rtfdoogpd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "740599142144-vfu9p9mtpqut766tamfsmv6gbt1pelam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acer.merisaathi",
+            "certificate_hash": "d5a65f08bf66244f6cd38e34ef7ec1a1a2f9861b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNWrWWfwWNJDe82-oCx3htSBtJN6RXD9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

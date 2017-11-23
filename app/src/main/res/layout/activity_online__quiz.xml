@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/activity_online__quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.acer.merisaathi.Online_Quiz">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="COUNT DOWN"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:id="@+id/trytext"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quiz_tv1"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:text="1.Country that has the highest in Barley Production ?"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_service_form_rg1"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+            <RadioButton
+                android:id="@+id/option1_1"
+                android:layout_width="wrap_content"
+                android:height="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="China"/>
+            <RadioButton
+                android:id="@+id/option1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="India"/>
+
+            <RadioButton
+                android:id="@+id/option1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:height="35dp"
+                android:text="Russia"/>
+            <RadioButton
+                android:id="@+id/option1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="France"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quiz_tv2"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:text="2. When is the World AIDS Day observed all over the world?"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_service_form_rg2"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+            <RadioButton
+                android:id="@+id/option2_1"
+                android:layout_width="wrap_content"
+                android:height="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="1st octomber"/>
+            <RadioButton
+                android:id="@+id/option2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="1st December"/>
+
+            <RadioButton
+                android:id="@+id/option2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:height="35dp"
+                android:text="12th December"/>
+            <RadioButton
+                android:id="@+id/option2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="12th November"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quiz_tv3"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:text="3. Cinematography was invented by ?"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_service_form_rg3"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:height="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="Graham Bell"/>
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="Edison"/>
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:height="35dp"
+                android:text="Zeiss"/>
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="Faraday"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quiz_tv4"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:text="4. Which is the Land of the Rising Sun?"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_service_form_rg4"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:height="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="China"/>
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="Taiwan"/>
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:height="35dp"
+                android:text="Australia"/>
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="Japan"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quiz_tv5"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:text="5. When the World population Day is observed?"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_service_form_rg5"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+            <RadioButton
+                android:id="@+id/option5_1"
+                android:layout_width="wrap_content"
+                android:height="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="June 7"/>
+            <RadioButton
+                android:id="@+id/option5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="June 13"/>
+
+            <RadioButton
+                android:id="@+id/option5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:height="35dp"
+                android:text=" July 11"/>
+            <RadioButton
+                android:id="@+id/option5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="35dp"
+                android:text="July 28"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="submit"
+        android:id="@+id/button1"/>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_discussion_forum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.acer.merisaathi.Discussion_forum">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:id = "@+id/womanhead"
+            android:src="@drawable/woman_head"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/discussion_tv1"
+            android:text="@string/post_creater"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="bottom"
+            android:textSize="35sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/discussion_tv2"
+        android:layout_marginBottom="20dp"
+        android:text= "@string/original_post"/>
+
+    <Button
+        android:text="Reply"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/replyButton"
+        android:onClick="replyButtonClicked"
+        />
+
+        </LinearLayout>
+
+<!--Purai reply ko lagi-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:id = "@+id/womanhead2"
+        android:src="@drawable/woman_head"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/discussion_tv4"
+        android:text="@string/replier"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="bottom"
+        android:textSize="25sp"/>
+</LinearLayout>
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/discussion_tv3"
+        android:layout_marginBottom="20dp"
+        android:text= "@string/first_reply"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:id = "@+id/womanhead3"
+                android:src="@drawable/woman_head"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/discussion_tv5"
+                android:text="@string/replier2"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="bottom"
+                android:textSize="25sp"/>
+        </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/discussion_tv6"
+    android:text="@string/second_reply"
+    />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

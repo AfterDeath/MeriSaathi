@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_navigation_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradientbgnd"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.acer.merisaathi.NavigationDrawer"
+    tools:showIn="@layout/app_bar_navigation_drawer">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Navigation_b1"
+        style="?android:textAppearanceSmall"
+       app:backgroundTint="#8b0000"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/emergency9"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+    android:id="@+id/Navigation_b2"
+    style="?android:textAppearanceSmall"
+            app:backgroundTint="#1FBF6D"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+            app:srcCompat="@drawable/tips9"
+
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips"
+        android:textStyle="bold"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="15dp"
+        android:gravity="center"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <android.support.design.widget.FloatingActionButton
+    android:id="@+id/Navigation_b3"
+    style="?android:textAppearanceSmall"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+            app:backgroundTint="#1FBF6D"
+            app:srcCompat="@drawable/discussionforum9"
+            android:textStyle="bold"
+    android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Forum"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"/>
+</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+    android:id="@+id/Navigation_b4"
+    style="?android:textAppearanceSmall"
+            app:backgroundTint="#1FBF6D"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+            app:srcCompat="@drawable/quiz4"
+
+    android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Navigation_b5"
+        style="?android:textAppearanceSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+            app:backgroundTint="#1FBF6D"
+            app:srcCompat="@drawable/cycletracker2"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cycle Tracker"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
